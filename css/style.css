@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  /* Primary */
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+font-size 14px
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--cream);
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Fraunces", serif;
+  font-size: 28px;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 20px 20px 20px 10px;
+  padding: 0 40px 0 20px;
+}
+
+h4 {
+  color: var(--dark-grayish-blue);
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+del {
+  color: var(--dark-grayish-blue);
+  font-size: 7px;
+  margin: auto;
+}
+
+p {
+  font-size: 12px;
+  color: var(--dark-grayish-blue);
+  line-height: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin: 20px 20px 20px 10px;
+  padding: 0 40px 0 20px;
+}
+
+.btn {
+  background-color: var(--dark-cyan);
+  border: none;
+  border-radius: 10px;
+  color: var(--white);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  height: 10%;
+}
+
+.btn:active {
+  background-color: var(--very-dark-blue);
+}
+
+/* #btn::active{
+  background-color: var(--dark-cyan);
+} */
+
+#cart {
+  margin-right: 20px;
+}
+
+/* left side of info card */
+
+#img {
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  margin-top: 15%;
+  margin-left: 15%;
+  width: 300px;
+  height: 400px;
+}
+
+#img2 {
+  display: none;
+}
+
+#price {
+  color: var(--dark-cyan);
+  display: flex;
+  justify-content: space-between;
+  font-family: "Fraunces", serif;
+  font-size: 28px;
+  text-align: center;
+  margin: 20px 20px 20px 10px;
+  padding: 0 40px 0 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* right side of info card */
+
+.container {
+  background-color: var(--white);
+  border-top-right-radius: 5%;
+  margin-top: 15%;
+  margin-right: 15%;
+  width: 300px;
+  height: 400px;
+}
+
+/* media queries */
+
+@media (max-width: 375px) {
+  * {
+    margin: auto;
+    padding: auto;
+  }
+
+  h2 {
+    font-family: "Fraunces", serif;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 20px 20px 10px 10px;
+    padding: 0 0 0 20px;
+  }
+
+  h4 {
+    color: var(--dark-grayish-blue);
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    color: var(--dark-grayish-blue);
+    line-height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin: 10px 20px 20px 10px;
+    padding: 0 0 0 20px;
+  }
+
+  #img {
+    display: none;
+  }
+
+  #img2 {
+    display: flex;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    margin: 30px 20px 0 20px;
+    width: 300px;
+  }
+
+  #cart {
+    margin: 0 20px 0 0;
+  }
+
+  .btn {
+    background-color: var(--dark-cyan);
+    border: none;
+    border-radius: 10px;
+    color: var(--white);
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container {
+    background-color: var(--white);
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20px;
+  }
+} ;
