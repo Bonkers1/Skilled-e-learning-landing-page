@@ -33,6 +33,7 @@ Users should be able to:
 
 ### Links
 
+- Solution URL: [product-review-card-component-205ewcajr-bonkers1.vercel.app](https://your-solution-url.com)
 - Live Site URL: [product-review-card-component-205ewcajr-bonkers1.vercel.app](https://your-live-site-url.com)
 
 ## My process
