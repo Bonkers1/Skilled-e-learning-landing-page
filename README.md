@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [product-review-card-component-205ewcajr-bonkers1.vercel.app](https://product-review-card-component-56vga9w7a-bonkers1.vercel.app/)
-- Live Site URL: [product-review-card-component-205ewcajr-bonkers1.vercel.app](https://your-live-site-url.com)
+- Live Site URL: [product-review-card-component-205ewcajr-bonkers1.vercel.app](https://product-review-card-component-56vga9w7a-bonkers1.vercel.app/)
 
 ## My process
 
