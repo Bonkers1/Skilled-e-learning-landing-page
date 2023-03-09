@@ -1,4 +1,6 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - Skilled e-learning landing page solution
+
+This is a solution to the [Skilled e-learning landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/skilled-elearning-landing-page-S1ObDrZ8q). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,30 +14,19 @@
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
-
-This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ### The challenge
 
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
+- See hover states for interactive elements
 
 ### Screenshot
 
-![](./Screenshot%20from%202023-03-02%2023-12-07.png)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./Screenshot%20from%202023-03-08%2016-39-55.png)
 
 ### Links
 
@@ -49,117 +40,301 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
 
 ### What I learned
 
-I learned to finally make a mobile version of this layout and am proud that I was able to make it :D.
+Placing limits and breakpoints between each screen size was very confusing at first but did let me reinforced what I learned and use media query more often now.
 
-To see how you can add code snippets, see below:
-
-```css
-@media (max-width: 375px) {
-  * {
-    margin: auto;
-    padding: auto;
+```
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  main {
+    position: relative;
+    overflow-x: hidden;
   }
 
-  h2 {
-    font-family: "Fraunces", serif;
-    font-size: 24px;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    margin: 20px 20px 10px 10px;
-    padding: 0 0 0 20px;
-  }
-
-  h4 {
-    color: var(--dark-grayish-blue);
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-  }
-
-  p {
-    font-size: 12px;
-    color: var(--dark-grayish-blue);
-    line-height: 1.5rem;
-    align-items: center;
-    justify-content: center;
-    text-align: left;
-    margin: 10px 20px 20px 10px;
-    padding: 0 0 0 20px;
-  }
-
-  #img {
-    display: none;
-  }
-
-  #img2 {
-    display: flex;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
-    margin: 30px 20px 0 20px;
-    width: 300px;
-  }
-
-  #cart {
-    margin: 0 20px 0 0;
-  }
-
-  .btn {
-    background-color: var(--dark-cyan);
-    border: none;
-    border-radius: 10px;
-    color: var(--white);
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  }
-
-  .card {
+  h1 {
+    color: var(--dark-blue);
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    text-align: left;
+    font-family: "Plus Jajarta Sans", sans-serif;
+    font-size: 2.5rem;
+    margin: 0 0 0.5em 0.3em;
+    padding: 0 5em 0 0;
   }
 
-  .container {
-    background-color: var(--white);
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 5%;
-    border-bottom-right-radius: 5%;
+  h2 {
+    color: var(--light-gray);
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.5;
+    text-align: left;
+    margin: 0 0 0.5em 0;
+    padding: 0 8em 0 1em;
+  }
+
+  h3 {
+    color: var(--white);
+    font-family: "Plus Jajarta Sans", sans-serif;
+    font-size: 1.5rem;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0 20px;
+    line-height: 1;
+    text-align: left;
+    margin: 3em 10em 1.5em 1em;
+    width: 70%;
   }
-} ;
+
+  h4 {
+    font-family: "Plus Jajarta Sans", sans-serif;
+    color: var(--dark-blue);
+    text-align: left;
+    margin: 1em 0 1em 1em;
+  }
+
+  h5 {
+    color: var(--light-gray);
+    font-size: 1rem;
+    text-align: left;
+    margin: 0 1em 0 1em;
+  }
+
+  h6 {
+    color: var(--dark-pink);
+    font-size: 1rem;
+    text-align: left;
+    margin: 1em 0 1em 1em;
+  }
+
+  body {
+    font-family: "Plus Jajarta Sans", sans-serif;
+  }
+
+  nav {
+    background-image: url("../assets/image-hero-tablet@2x.png");
+    background-position: 25em -5em;
+    background-repeat: no-repeat;
+    background-size: 40em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 35em;
+  }
+
+  footer {
+    background-color: var(--dark-blue);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 7em;
+    width: 100%;
+  }
+
+  .btn {
+    background-color: var(--dark-blue);
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 2em 4em 1em 0;
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .btn:active {
+    background-color: var(--light-gray);
+  }
+
+  .btn-1 {
+    background: linear-gradient(rgb(72, 81, 255), rgb(240, 42, 166));
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    border: none;
+    color: var(--white);
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 4em 0 0;
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .btn-1:active {
+    background-color: var(--light-gray);
+  }
+
+  .btn-2 {
+    background: linear-gradient(rgb(240, 42, 166), rgb(255, 111, 72));
+    border-radius: 2rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    border: none;
+    color: var(--white);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1em 30em 0 1em;
+    width: 9rem;
+    height: 3rem;
+  }
+
+  .btn-3:active {
+    background-color: var(--light-gray);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30em 50em 1em;
+  }
+
+  .container-1 {
+    background: linear-gradient(rgb(255, 111, 72), rgb(240, 42, 166));
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 1em 0 1em;
+    width: 21em;
+    height: 17em;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+  }
+
+  .img {
+    margin: 2em 0 3em 2em;
+  }
+  .img-2 {
+    align-items: center;
+    margin: 1em 20em 0 1em;
+  }
+  .img-3 {
+    justify-content: space-around;
+    margin: 0 0 0 2em;
+  }
+
+  .hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 0 0;
+  }
+
+  .main-container {
+    background-color: var(--white);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.1);
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 1em 0 1em 1em;
+    width: 21em;
+    height: 17em;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+  }
+  .main-container2 {
+    background-color: var(--white);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.1);
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 1em 1em;
+    width: 21em;
+    height: 19em;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+  }
+  .main-container3 {
+    background-color: var(--white);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.1);
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 1em 1em;
+    width: 21em;
+    height: 19em;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+  }
+  .main-container4 {
+    background-color: var(--white);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.1);
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 5em 1em;
+    width: 21em;
+    height: 19em;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+  }
+  .main-container5 {
+    background-color: var(--white);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.1);
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 5em 1em;
+    width: 21em;
+    height: 19em;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+  }
+
+  .paragraph {
+    text-align: center;
+    margin: auto;
+  }
+}
+
 ```
 
 ### Continued development
 
-I want to focus on improving the fundamentals of HTML CSS and Javascript before moving on to a framework.
+Flex and Grid are both very useful tools and we're very interesting when using them for this project.
+End up using Flexbox but will definitely be reusing these for future projects to improve and master them.
 
 ### Useful resources
 
-- [Google](https://www.example.com) - This helped me get better at looking up solutions and examples. Sometimes I couldn't figure out things so Google helped. Honestly the amount of times people saying "Google is your friend" is not wrong.
-
-- [Stack Overflow](https://stackoverflow.com/) - Same as with Google usually when I was looking for something related stack overflow would pop up on my feed most of the time.
+- [FreeCodeCamp](https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/) - Helped realize that doing mobile first then desktop was the best approach. You learn something new everyday.
 
 ## Author
 
