@@ -14,10 +14,6 @@ This is a solution to the [Skilled e-learning landing page challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-<<<<<<< HEAD
-=======
-
->>>>>>> b8b410d20640396d3fca47e47f832d958c8e6f0a
 
 ## Overview
 
@@ -30,18 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-<<<<<<< HEAD
-![](./Screenshot%20from%202023-03-08%2016-39-55.png)
-=======
 ![](./Screenshot%20from%202023-03-02%2023-12-07.png)
-
-
->>>>>>> b8b410d20640396d3fca47e47f832d958c8e6f0a
 
 ### Links
 
-- Solution URL: [product-review-card-component-205ewcajr-bonkers1.vercel.app](https://product-review-card-component-56vga9w7a-bonkers1.vercel.app/)
-- Live Site URL: [product-review-card-component-205ewcajr-bonkers1.vercel.app](https://product-review-card-component-56vga9w7a-bonkers1.vercel.app/)
+- Solution URL: []()
+- Live Site URL: []()
 
 ## My process
 
@@ -349,4 +339,7 @@ End up using Flexbox but will definitely be reusing these for future projects to
 ## Author
 
 - Frontend Mentor - [@Bonkers1](https://www.frontendmentor.io/profile/Bonkers1)
+
 # Skill-e-learning-landing-page
+
+# Skilled-e-learning-landing-page
