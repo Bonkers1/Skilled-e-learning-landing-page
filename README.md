@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [skilled-e-learning-landing-page-i5ed57gon-bonkers1.vercel.app](skilled-e-learning-landing-page-i5ed57gon-bonkers1.vercel.app)
+- Live Site URL: [skilled-e-learning-landing-page-i5ed57gon-bonkers1.vercel.app](skilled-e-learning-landing-page-i5ed57gon-bonkers1.vercel.app)
 
 ## My process
 
